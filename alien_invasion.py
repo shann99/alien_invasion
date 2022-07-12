@@ -207,7 +207,7 @@ class AlienInvasion:
             self._ship_hit()
 
         #look for aliens hitting the bottom of the screen
-        self._check_aliens_bottom
+        self._check_aliens_bottom()
 
     def _update_screen(self):
         """update images on the screen and flip to the new screen"""
